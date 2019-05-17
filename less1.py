@@ -11,4 +11,3 @@ def squirrel (N):
     for i in range(1, N+1):
         m *= i
     return int(m/100)
-print(squirrel(6))
